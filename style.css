@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: #2854a3;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body > * {
+  max-width: 900px;
+  margin: 1em auto;
+}
+
