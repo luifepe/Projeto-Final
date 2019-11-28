@@ -55,7 +55,13 @@ h2:hover {
 img{
   
   justify-items: center;
-}
+  size: 20%;
+  margin: 15px;  
+  border: 1px solid #fff;
+  box-shadow:  #ff00de;
+  border-width: 5px;
+
+}  
 
 input {
   height: 50px;
@@ -81,21 +87,15 @@ button {
 
 
 #gif-infinito{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  /*grid-row-gap: 1em;*/
-  grid-row-start: 1;
-  grid-row-end: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 10px;
   
+  
+   
  
 }
 
-#grid {  
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 1em;
-
- 
-}

@@ -31,15 +31,16 @@ function searchGiphy() {
 // ------------------------------------------------------------------ funcion scroll infinito + funcion detectar final de la pagina
 
 function carrega_gif (value, index,array){
-    var gif_title = document.createElement ("h2");
+    //var gif_title = document.createElement ("h2");
     var gif_media = document.createElement("img");
    
-    gif_title.textContent = value.title;
+    //gif_title.textContent = value.title;
     gif_media.src = value.images.original.url;
     
     const gif_infinito = document.querySelector("#gif-infinito");
-    gif_infinito.appendChild(gif_title);
+    //gif_infinito.appendChild(gif_title);
     gif_infinito.appendChild(gif_media);
+    
 
     console.log(value);
 }
@@ -54,7 +55,7 @@ function endOfPage() {
     }
 }
 
-// ------------------------------------------------------------titulo dinamico
+// --------------------------------------------------------------------------titulo dinamico
 
 const target = window.document.getElementsByTagName('h1')[0]
 
